@@ -1,0 +1,46 @@
+html body {
+  background-color: #e6e6e6;
+}
+
+.navbar {
+  border-bottom: 2px solid #000000;
+}
+
+.blog-body {
+  background-color: #DEDEDE;
+  color: #000000;
+}
+.blog-body .btnmread {
+  width: 40px;
+}
+
+.blog-bar-head {
+  background-color: #1E90FF;
+  height: 40px;
+}
+.blog-bar-head a {
+  color: #FFFFFF;
+}
+.blog-bar-head a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.blog-bar {
+  background-color: #F5F5F5;
+  height: 200px;
+}
+.blog-bar ul li {
+  list-style-type: none;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #383838;
+}
+.footer span {
+  color: #FFFFFF;
+}
