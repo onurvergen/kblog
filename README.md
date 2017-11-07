@@ -1,1 +1,1 @@
-# KİŞİSEL BLOG TEMASI 
+# Kişisel Blog Teması
