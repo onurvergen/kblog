@@ -1,5 +1,11 @@
-html body {
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
   background-color: #e6e6e6;
+  margin-bottom: 60px;
 }
 
 .navbar {
@@ -35,10 +41,10 @@ html body {
 }
 
 .footer {
+  position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 100px;
-  line-height: 100px;
+  height: 60px;
   background-color: #383838;
 }
 .footer span {
