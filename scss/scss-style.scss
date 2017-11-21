@@ -64,7 +64,6 @@ $blogbar-ul-li-lstyle:none;
 }
 
 $footer-position:absolute;
-$footer-bottom:0px;
 $footer-bg-c:#383838;
 $footer-width:100%;
 $footer-height:60px;
@@ -72,13 +71,13 @@ $footer-span-c:#FFFFFF;
 
 .footer {
   position: $footer-position;
-  bottom: $footer-bottom;
   width: $footer-width;
   height: $footer-height;
   background-color:$footer-bg-c;
 
   span {
     color: $footer-span-c;
+
   }
 
 }
