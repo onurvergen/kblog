@@ -1,16 +1,18 @@
 $bg-color:#e6e6e6;
-$positionr:relative;
+$font:'Open Sans';
+$htmlpositionr:relative;
 $htmlminheight:100%;
 $bodymarginbottom:60px;
 
 html {
-  position: $positionr;
+  position: $htmlpositionr;
   min-height: $htmlminheight;
 }
 
 body {
   background-color: $bg-color;
   margin-bottom: $bodymarginbottom;
+  font-family: $font;
 }
 
 $navbar-border-bottom:2px solid #000000;
@@ -64,6 +66,10 @@ $blogbar-ul-li-lstyle:none;
 }
 
 $footer-position:absolute;
+$footer-bottom:0px;
+$footer-display:flex;
+$footer-align-h:center;
+$footer-align-v:center;
 $footer-bg-c:#383838;
 $footer-width:100%;
 $footer-height:60px;
@@ -71,9 +77,13 @@ $footer-span-c:#FFFFFF;
 
 .footer {
   position: $footer-position;
+  bottom: $footer-bottom;
   width: $footer-width;
   height: $footer-height;
   background-color:$footer-bg-c;
+  display: $footer-display;
+  justify-content: $footer-align-h;
+  align-items: $footer-align-v;
 
   span {
     color: $footer-span-c;
