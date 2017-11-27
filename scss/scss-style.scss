@@ -24,14 +24,10 @@ $navbar-border-bottom:2px solid #000000;
 $blogbody-bg-c:#DEDEDE;
 $blogbody-c:#000000;
 $blogbody-head-a-c:#000000;
-$blogbody-button-width:40px;
 
 .blog-body {
   background-color:$blogbody-bg-c;
   color: $blogbody-c;
-  .btnmread {
-    width: $blogbody-button-width;
-  }
 }
 
 $blogbar-head-bg-c:#1E90FF;
