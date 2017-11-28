@@ -23,11 +23,20 @@ $navbar-border-bottom:2px solid #000000;
 
 $blogbody-bg-c:#DEDEDE;
 $blogbody-c:#000000;
-$blogbody-head-a-c:#000000;
 
 .blog-body {
   background-color:$blogbody-bg-c;
   color: $blogbody-c;
+}
+
+$blogpost-img-w:128px;
+$blogpost-img-h:128px;
+$blogpost-img-p:5px;
+
+.blogpost-img {
+  width: $blogpost-img-w;
+  height: $blogpost-img-h;
+  padding: $blogpost-img-p;
 }
 
 $blogbar-head-bg-c:#1E90FF;

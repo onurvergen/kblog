@@ -18,6 +18,12 @@ body {
   color: #000000;
 }
 
+.blogpost-img {
+  width: 128px;
+  height: 128px;
+  padding: 5px;
+}
+
 .blog-bar-head {
   background-color: #1E90FF;
   height: 40px;
